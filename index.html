@@ -2,27 +2,29 @@
 <html lang="en">
    <head>
        <meta charset="utf-8">
-       <title>CSS Exercise Week 2</title>
+       <title>Comm Bistro</title>
        <link rel="stylesheet" type="text/css" href="css/main.css">
        <meta name="description" content="css exercise for comm 261 at ndsu  ">
-       <meta name="keywords" content="css, exercise, web, development   ">
+       <meta name="keywords" content="css, exercise, web, development">
+
+       <link rel="icon" type="image/png" sizes="32x32" href="assets/logo/favicon.png">
+
       <script>
         src="http://html5shiv.googlecode.com/svn/trunk/html5.js"
       </script>
-<title>CSS Exercise Week 2</title>
+  </head>
 
-</head>
 <body>
-
-<header>
-  <h1>Dakota Bistro</h1>
-  <nav class="topnav">
-    <a href="#breakfast_section">Breakfast</a>
-    <a href="#lunch_section">Lunch</a>
-    <a href="#dinner_section">Dinner</a>
-    <a href="https://www.google.com">Google</a>
-  </nav>
-</header>
+  <header>
+    <h1><img src="assets/logo/logo.png" height="100px" width="100px"/> Dakota Bistro</h1>
+    <nav class="topnav">
+      <a class="active" href="index.html">Home</a>
+      <a href="breakfast.html">Breakfast</a>
+      <a href="lunch.html">Lunch</a>
+      <a href="dinner.html">Dinner</a>
+      <a href="https://www.google.com">Google</a>
+    </nav>
+  </header>
 
 <section>
   <div class="intro">
@@ -32,38 +34,18 @@
       heat lamps! You'll receive exactly the meal you want, fresh and hot.</p>
 
     <p id="intro-images">
-      <img src="img/breakfast.jpg" alt="breakfast example" height="400px" width="600px" />
-      <img src="img/lunch.jpg" alt="lunch example" height="400px" width="600px" />
-      <img src="img/dinner.jpg" alt="dinner example" height="400px" width="600px" />
+      <a href="breakfast.html"><img src="assets/img/breakfast.jpg" alt="breakfast example" height="400px" width="600px" /></a>
+      <a href="lunch.html"><img src="assets/img/lunch.jpg" alt="lunch example" height="400px" width="600px" /></a>
+      <a href="dinner.html"><img src="assets/img/dinner.jpg" alt="dinner example" height="400px" width="600px" /></a>
     </p>
   </div>
 
-  <article id="breakfast">
-    <a id="breakfast_section"><h2>Breakfast Menu</h2></a>
-      <ul>
-        <li>Design your own omelet</li>
-        <li>Have a country breakfast</li>
-        <li>Lighten up with all things healthy</li>
-      </ul>
-  </article>
-
-  <article id="lunch">
-    <a id="lunch_section"><h2>Lunch Menu</h2></a>
-      <ul>
-        <li>Design your own burger</li>
-        <li>Design your own sandwich</li>
-        <li>Design your own salad</li>
-      </ul>
-  </article>
-
-  <article id="dinner">
-    <a id="dinner_section"><h2>Dinner Menu</h2></a>
-      <ul>
-        <li>Made from scratch home-styled dinner</li>
-        <li>Meat and potatoes please</li>
-        <li>Try a signature dish</li>
-      </ul>
-  </article>
+  <div class="video-container">
+    <iframe width="560px" height="349px" 
+      src="https://www.youtube.com/embed/GHe8kKO8uds"
+      frameborder="0" allowfullscreen="">
+    </iframe>
+  </div>
 
 </section>
 
