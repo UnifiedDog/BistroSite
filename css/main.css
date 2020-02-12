@@ -83,6 +83,13 @@ html {
 
 .intro p {
     color: #f2f2f2;
+    text-align: center;
+    padding: 1%;
+}
+
+#intro-images {
+    max-width: 100%;
+    
 }
 
 #breakfast {
